@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
     <Name>Theologians Points</Name>
-    <Guid>f419aea5-a85d-48e0-b7a7-29103aef9f50</Guid>
+    <Guid>b0d4a608-5af9-4c45-a4d9-a5e891cb518c</Guid>
     <ProjectGuid>4650ede9-c776-42f8-9382-e703ecb9c03d</ProjectGuid>
     <ModVersion>1</ModVersion>
     <Teaser>Adds Theologian Points to JFD's Great Theologians</Teaser>
