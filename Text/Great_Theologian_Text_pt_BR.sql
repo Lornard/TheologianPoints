@@ -1,0 +1,320 @@
+-- Great Theologian_Text
+-- Author: lorna
+-- DateCreated: 9/24/2019 9:51:03 PM
+--------------------------------------------------------------
+
+INSERT OR REPLACE INTO LocalizedText 
+		(Language,	Tag,																			Text)
+VALUES	('en_US',	'LOC_POLICY_MYTHICAL_STUDIES_NAME',												'Mythical Studies'),
+		('en_US',	'LOC_POLICY_MYTHICAL_STUDIES_DESCRIPTION',										'+2 [ICON_GreatProphet] Great Theologians points per turn.'),
+		('en_US',	'LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_MYTHICAL_STUDIES_CHAPTER_HISTORY_PARA_1',	'Drawing on Greek Stoic sources, the Latin writer Varro distinguished three forms of theologian discourse: mythical (concerning the myths of the Greek gods), rational (philosophical analysis of the gods and of cosmology) and civil (concerning the rites and duties of public religious observance).'),
+		('en_US',	'LOC_GREAT_PERSON_JFD_XIONG_SHILI_ALT_HELP',									'Triggers a Inspiration moment for a Atomic Era civic. Grants 1 [ICON_GOVERNOR] Governor Title or recruit a new [ICON_GOVERNOR] Governor.'),
+		('en_US',	'LOC_ABILITY_COMBAT_BONUS_BOROMEU_NAME',										'Counter-Reformer.'),
+		('en_US',	'LOC_ABILITY_COMBAT_BONUS_BOROMEU_DESCRIPTION',									'+5 [ICON_Strength] Combat Strength from Counter-Reformer(Charles Borromeu).'),
+		('en_US',	'LOC_GREAT_PERSON_JFD_CHARLES_BORROMEO_HELP',									'Grants All Religious units the Counter-Reformer Ability, which grants +5 [ICON_Strength] Combat Strength in Theological Combat.');
+
+		--<!--Xiong Shili-->
+		--<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_JFD_XIONG_SHILI_NAME" Language="en_US">
+			--<Text>Xiong Shili</Text>
+		--</Row>
+		--<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_JFD_XIONG_SHILI_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			--<Text>Xiong Shili was a modern Chinese philosopher whose major work A New Treatise on Consciousness-only is a Confucian critique of the Buddhist "consciousness-only" theory popularized in China by the Tang-dynasty pilgrim Xuanzang.[NEWLINE][NEWLINE]Xiong is widely regarded as the thinker who laid down the basis for the revival of Confucianism during the twentieth century, and the main voice in contemporary Chinese philosophy who called for a revival of the Confucian dao. He felt it could provide a guide for the country during its tumultuous period following the May Fourth Movement in 1919. He felt that national survival was predicated on a sense of community, which in turn could only come from trusting commitments from the people involved. He believed that the most urgent task for the educated elite in China was to raise the cultural awareness and sensitivity of the people that the clash between the West and China was not solely a clash of economic strength and military might, but also a conflict between basic human values. While he led a fairly secluded life throughout his career as a teacher and his association with the academic community did not begin until he was in his late thirties, his views have influenced scholars to this day.</Text>
+		--</Row>
+		--<Row Tag="LOC_GREAT_PERSON_JFD_XIONG_SHILI_HELP" Language="en_US">
+			--<Text>Triggers the [ICON_CIVICBOOSTED] Inspiration moment for the Cultural Heritage civic. +1 Cultural policy slot in any government.</Text>
+		--</Row>
+
+
+--
+--<?xml version="1.0" encoding="utf-8"?>
+--<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+--<GameData>
+	--<LocalizedText>
+		--<!--===================================================-->
+		--<!--GREAT PROPHET-->
+		--<!--===================================================-->
+		--<!--RENAISSANCE-->
+		--<!--Jan Hus-->
+		--<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_JFD_JAN_HUS_NAME" Language="en_US">
+			--<Text>Jan Hus</Text>
+		--</Row>
+		--<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_THOMAS_AQUINAS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			--<Text>Jan Hus, sometimes Anglicized as John Hus or John Huss, also referred to in historical texts as Iohannes Hus or Johannes Huss) was a Czech theologian, philosopher, master, dean, and rector of the Charles University in Prague who became a church reformer, an inspirer of Hussitism, a key predecessor to Protestantism and a seminal figure in the Bohemian Reformation.</Text>
+		--</Replace>
+		--<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_THOMAS_AQUINAS_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			--<Text>After John Wycliffe, the theorist of ecclesiastical reform, Hus is considered the first church reformer, as he lived before Luther, Calvin, and Zwingli. His teachings had a strong influence on the states of Western Europe, most immediately in the approval of a reformed Bohemian religious denomination, and, more than a century later, on Martin Luther himself. He was burned at the stake for heresy against the doctrines of the Catholic Church, including those on ecclesiology, the Eucharist, and other theological topics.</Text>
+		--</Replace>
+		--<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_THOMAS_AQUINAS_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			--<Text>After Hus was executed in 1415, the followers of his religious teachings (known as Hussites) rebelled against their Catholic rulers and defeated five consecutive papal crusades between 1420 and 1431 in what became known as the Hussite Wars. Both the Bohemian and the Moravian populations remained majority Hussite until the 1620s, when a Protestant defeat in the Battle of the White Mountain resulted in the Lands of the Bohemian Crown coming under Habsburg dominion for the next 300 years and being subject to immediate and forced conversion in an intense campaign of return to Catholicism.</Text>
+		--</Replace>
+		--<!--===================================================-->
+		--<!--GREAT THEOLOGIAN-->
+		--<!--===================================================-->
+		--<!--GP: Great Theologian-->
+		--<Row Tag="LOC_UNIT_JFD_GREAT_THEOLOGIAN_NAME" Language="en_US">
+			--<Text>Great Theologian</Text>
+		--</Row>
+		--<Row Tag="LOC_UNIT_JFD_GREAT_THEOLOGIAN_DESCRIPTION" Language="en_US">
+			--<Text>Each [ICON_GREATPROPHET] Great Theologian has unique abilities when activated. Visit the Great People panel to learn more, and track your progress.</Text>
+		--</Row>
+		--<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JFD_GREAT_THEOLOGIAN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			--<Text>A theologian is an academic that studies theology. Theology is the critical study of the nature of the divine. It is taught as an academic discipline, typically in universities, seminaries and schools of divinity. Augustine of Hippo defined the Latin equivalent, theologia, as "reasoning or discussion concerning the Deity."</Text>
+		--</Row>
+		--<!--Great Theologian-->
+		--<Row Tag="LOC_GREAT_PERSON_CLASS_JFD_THEOLOGIAN_NAME" Language="en_US">
+			--<Text>Great Theologian</Text>
+		--</Row>
+		--<Row Tag="LOC_GREAT_PEOPLE_CANNOT_EARN_PERSON_JFD_NO_PROPHET" Language="en_US">
+			--<Text>You must have either founded a Religion or have a majority religion across your cities, OR all Religions must have been founded to spawn a Great Theologian.</Text>
+		--</Row>
+		--<!--GREAT PEOPLE-->
+		--<!--CLASSICAL-->
+		--<!--Augustine of Hippo
+		--<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_JFD_AUGUSTINE_NAME" Language="en_US">
+			--<Text>Augustine of Hippo</Text>
+		--</Row>
+		--<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_JFD_AUGUSTINE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			--<Text>Augustine of Hippo was an early Christian theologian and philosopher whose writings influenced the development of Western Christianity and Western philosophy. He was the bishop of Hippo Regius, located in Numidia. Augustine is viewed as one of the most important Church Fathers in Western Christianity for his writings in the Patristic Era. Among his most important works are The City of God and Confessions.[NEWLINE][NEWLINE]According to his contemporary Jerome, Augustine "established anew the ancient Faith". In his youth he was drawn to Manichaeism and later to neo-Platonism. After his baptism and conversion to Christianity in 386, Augustine developed his own approach to philosophy and theology, accommodating a variety of methods and perspectives. Believing that the grace of Christ was indispensable to human freedom, he helped formulate the doctrine of original sin and made seminal contributions to the development of just war theory. When the Western Roman Empire began to disintegrate, Augustine imagined the Church as a spiritual City of God, distinct from the material Earthly City. His thoughts profoundly influenced the medieval worldview. The segment of the Church that adhered to the concept of the Trinity as defined by the Council of Nicaea and the Council of Constantinople closely identified with Augustine's On the Trinity.[NEWLINE][NEWLINE]Augustine is recognized as a saint in the Catholic Church, the Eastern Christian Church, and the Anglican Communion and as a preeminent Doctor of the Church. He is also the patron of the Augustinians. His memorial is celebrated on 28 August, the day of his death. Augustine is the patron saint of brewers, printers, theologians, the alleviation of sore eyes, and a number of cities and dioceses. Many Protestants, especially Calvinists and Lutherans, consider him to be one of the theological fathers of the Protestant Reformation due to his teachings on salvation and divine grace. Protestant Reformers generally, and Martin Luther in particular, held Augustine in preeminence among early Church Fathers. Luther himself was, from 1505 to 1521, a member of the Order of the Augustinian Eremites.</Text>
+		--</Row>
+		--<Row Tag="LOC_GREAT_PERSON_JFD_AUGUSTINE_HELP" Language="en_US">
+			--<Text>Receive +25% more [ICON_GREATPROPHET] Great Prophet Points from all sources.</Text>
+		--</Row>-->
+		--<!--Jaimini
+		--<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_JFD_JAIMINI_NAME" Language="en_US">
+			--<Text>Jaimini</Text>
+		--</Row>
+		--<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_JFD_JAIMINI_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			--<Text>Jaimini was an ancient Indian scholar who founded the Mimansa school of Hindu philosophy. He was a disciple of sage Veda Vyasa, the son of Parashara. Traditionally attributed to be the author of the Mimamsa Sutras and Jaimini Sutras, he is estimated to have lived around the 4th-century BCE. His school is considered non-theistic, but one that emphasized rituals parts of the Vedas as essential to Dharma.[NEWLINE][NEWLINE]Jaimini's guru was Badarayana, the latter founded the Vedanta school of Hindu philosophy, emphasizing the knowledge parts of the Vedas, and credited with authoring Brahma Sutras. Both Badarayana and Jaimini quoted each other as they analyzed each other's theories, Badarayana emphasizing knowledge while Jaimini emphasizes rituals, sometimes agreeing with each other, sometimes disagreeing, often anti-thesis of the other.[NEWLINE][NEWLINE]Jaimini's contributions to textual analysis and exegesis influenced other schools of Indian philosophies, and the most studied bhasya (reviews and commentaries) on Jaimini's texts were by scholars named Shabara, Kumarila and Prabhakara.</Text>
+		--</Row>
+		--<Row Tag="LOC_GREAT_PERSON_JFD_JAIMINI_HELP" Language="en_US">
+			--<Text>Mimamsa Sutra ([ICON_GREATWORK_WRITING] Writing; yields [ICON_FAITH] Faith)</Text>
+		--</Row>
+		--<Row Tag="LOC_GREATWORK_JFD_MIMAMSA_SUTRA_NAME" Language="en_US">
+			--<Text>Mimamsa Sutra</Text>
+		--</Row>
+		--<Row Tag="LOC_GREATWORK_JFD_MIMAMSA_SUTRA_QUOTE" Language="en_US">
+			--<Text>Duty is that which is indicated by the injunctions of the Vedas.</Text>
+		--</Row>-->
+		--<!--Plotinus
+		--<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_JFD_PLOTINUS_NAME" Language="en_US">
+			--<Text>Plotinus</Text>
+		--</Row>
+		--<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_JFD_PLOTINUS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			--<Text>Plotinus is generally regarded as the founder of Neoplatonism. He is one of the most influential philosophers in antiquity after Plato and Aristotle. The term ‘Neoplatonism’ is an invention of early 19th century European scholarship and indicates the penchant of historians for dividing ‘periods’ in history. In this case, the term was intended to indicate that Plotinus initiated a new phase in the development of the Platonic tradition. What this ‘newness’ amounted to, if anything, is controversial, largely because one’s assessment of it depends upon one’s assessment of what Platonism is. In fact, Plotinus (like all his successors) regarded himself simply as a Platonist, that is, as an expositor and defender of the philosophical position whose greatest exponent was Plato himself. Originality was thus not held as a premium by Plotinus. Nevertheless, Plotinus realized that Plato needed to be interpreted. In addition, between Plato and himself, Plotinus found roughly 600 years of philosophical writing, much of it reflecting engagement with Plato and the tradition of philosophy he initiated. Consequently, there were at least two avenues for originality open to Plotinus, even if it was not his intention to say fundamentally new things. The first was in trying to say what Plato meant on the basis of what he wrote or said or what others reported him to have said. This was the task of exploring the philosophical position that we happen to call ‘Platonism’. The second was in defending Plato against those who, Plotinus thought, had misunderstood him and therefore unfairly criticized him. Plotinus found himself, especially as a teacher, taking up these two avenues. His originality must be sought for by following his path.</Text>
+		--</Row>
+		--<Row Tag="LOC_GREAT_PERSON_JFD_PLOTINUS_HELP" Language="en_US">
+			--<Text>Triggers the [ICON_TECHBOOSTED] Eureka moment for 1 random technology from the Ancient or Classical era.</Text>
+		--</Row>-->
+		--<!--MEDIEVAL-->
+		--<!--Gregory Palamas-->
+		--<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_JFD_GREGORY_PALAMAS_NAME" Language="en_US">
+			--<Text>Gregory Palamas</Text>
+		--</Row>
+		--<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_JFD_GREGORY_PALAMAS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			--<Text>Gregory Palamas was a prominent theologian and ecclesiastical figure of the late Byzantine period. A monk of Mount Athos (modern Greece) and later archbishop of Thessaloniki, he is famous for his defense of hesychast spirituality, the uncreated character of the light of the Transfiguration, and the distinction between God's essence and energies (i.e., the divine will, divine grace, etc.). His teaching unfolded over the course of three major controversies, (1) with the Italo-Greek Barlaam between 1336 and 1341, (2) with the monk Gregory Akindynos between 1341 and 1347, and (3) with the philosopher Gregoras, from 1348 to 1355. His theological contributions are sometimes referred to as Palamism, and his followers as Palamites.[NEWLINE][NEWLINE]Gregory is venerated, since 1368, as a Saint in the Eastern Orthodox Church; and some Byzantine Catholic Churches, which form part of the communion of the Church of Rome have also included him in their liturgical books. (He has also been called a saint, and repeatedly cited as a great theological writer, by Pope John Paul II.) Some of his writings are collected in the Philokalia, and since the Ottoman period, the second Sunday of Great Lent is dedicated to the memory Gregory Palamas in the Orthodox Church. The Byzantine Synodikon of Orthodoxy also celebrates his memory and theology while condemning his opponents, including some anti-Palamites who flourished after Gregory's death. </Text>
+		--</Row>
+		--<Row Tag="LOC_GREAT_PERSON_JFD_GREGORY_PALAMAS_HELP" Language="en_US">
+			--<Text>200 [ICON_FAITH] Faith. May purchase Shrines and Temples with [ICON_FAITH] Faith.</Text>
+		--</Row>
+		--<!--Thomas Aquinas-->
+		--<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_JFD_THOMAS_AQUINAS_NAME" Language="en_US">
+			--<Text>Thomas Aquinas</Text>
+		--</Row>
+		--<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_JFD_THOMAS_AQUINAS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			--<Text>“How many angels can dance on the head of a pin?” As foolish as this question may sound today, it was seriously considered by Thomas Aquinas, a proponent of scholasticism, who explored the intersection of philosophical aspects of space and the qualities attributed to angels through dialectical reasoning. At a period when the need for rationality as a compliment to faith was of critical importance to a Catholic theology facing challenges from the progressive thinkers of the Renaissance, the Dominican friar Aquinas proved Christianity’s most eloquent and staunchest defender. He is considered to be the founder of “natural theology”; hence he was canonized in 1323 AD.</Text>
+		--</Row>
+		--<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_JFD_THOMAS_AQUINAS_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			--<Text>Born c. 1225 in Roccasecca to the count of Aquino, the five-year-old Thomas was sent to Monte Cassino to study with the Benedictine monks. By 1239 he was enrolled at the University of Naples but secretly joined the Dominican order, receiving the habit in 1244. His family was so disappointed – they had political plans – they had him imprisoned in their fortress at San Giovanni. Finally released after a year, Thomas pursued his studies with the Dominicans in Naples, Paris and Cologne, eventually earning his doctorate in theology. Having learned everything known about God (or, at least, the Christian one), he embarked on a life of traveling, writing, preaching, and lecturing; religious institutions and universities alike vied for “the Christian Apostle” to visit.</Text>
+		--</Row>
+		--<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_JFD_THOMAS_AQUINAS_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			--<Text>Mostly, he wrote … prolifically, penning some 60 known works spanning a wide range of subjects, from commentaries on the Bible to discussions of Aristotle’s natural philosophy. Written from 1265 to 1274, his unfinished Summa Theologica is considered one of the most influential philosophical works in civilization. Having established a theological studies program in Naples, he was summoned to the ecumenical council to meet in Lyon. He set out for it in January 1274, on foot … but died en route.</Text>
+		--</Row>
+		--<Row Tag="LOC_GREAT_PERSON_JFD_THOMAS_AQUINAS_HELP" Language="en_US">
+			--<Text>Applies 10 free [ICON_GREATPERSON] Great People points towards recruiting all current and future Great People. Instantly builds a University in this district.</Text>
+		--</Row>
+		--<!--Xuanzang-->
+		--<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_JFD_XUANZANG_NAME" Language="en_US">
+			--<Text>Xuanzang</Text>
+		--</Row>
+		--<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_JFD_XUANZANG_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			--<Text>Xuanzang was a Chinese Buddhist monk, scholar, traveller, and translator who travelled to India in the seventh century and described the interaction between Chinese Buddhism and Indian Buddhism during the early Tang dynasty.[NEWLINE][NEWLINE]During the journey he visited many sacred Buddhist sites in what are now Pakistan, India, Nepal, Bangladesh. He was born in what is now Henan province around 602, from boyhood he took to reading religious books, including the Chinese classics and the writings of ancient sages.[NEWLINE][NEWLINE]While residing in the city of Luoyang (in Henan in Central China), Xuanzang was ordained as a ?r?ma?era (novice monk) at the age of thirteen. Due to the political and social unrest caused by the fall of the Sui dynasty, he went to Chengdu in Sichuan, where he was ordained as a bhik?u (full monk) at the age of twenty. He later travelled throughout China in search of sacred books of Buddhism. At length, he came to Chang'an, then under the peaceful rule of Emperor Taizong of Tang, where Xuanzang developed the desire to visit India. He knew about Faxian's visit to India and, like him, was concerned about the incomplete and misinterpreted nature of the Buddhist texts that had reached China.[NEWLINE][NEWLINE]He became famous for his seventeen-year overland journey to India (including Nalanda), which is recorded in detail in the classic Chinese text Great Tang Records on the Western Regions, which in turn provided the inspiration for the novel Journey to the West written by Wu Cheng'en during the Ming dynasty, around nine centuries after Xuanzang's death.</Text>
+		--</Row>
+		--<Row Tag="LOC_GREAT_PERSON_JFD_XUANZANG_HELP" Language="en_US">
+			--<Text>+1 [ICON_MOVEMENT] Movement for Apostles, Missionaries, and Inquisitors.</Text>
+		--</Row>
+		--<!--RENAISSANCE-->
+		--<!--Charles Borromeo-->
+		--<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_JFD_CHARLES_BORROMEO_NAME" Language="en_US">
+			--<Text>Charles Borromeo</Text>
+		--</Row>
+		--<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_JFD_CHARLES_BORROMEO_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			--<Text>Charles Borromeo was a cardinal who was archbishop of Milan from 1564 to 1584. Among the great reformers of the troubled sixteenth century, Borromeo, with St. Ignatius of Loyola, St. Philip Neri, and others, led the movement to combat the inroads of the Protestant Reformation. He was a leading figure during the Counter-Reformation and was responsible for significant reforms in the Catholic Church, including the founding of seminaries for the education of priests.[NEWLINE][NEWLINE]Borromeo's correspondence shows his influential position in Europe during his lifetime. The Popes under whom he served sought his advice. The Catholic sovereigns of Europe – Henry III of France, Philip II of Spain, Mary, Queen of Scots – and others showed how they valued his influence. Cardinal Valerio of Verona said of him that Borromeo was "to the well-born a pattern of virtue, to his brother cardinals an example of true nobility." Cardinal Baronius styled him "a second Ambrose, whose early death, lamented by all good men, inflicted great loss on the Church."[NEWLINE][NEWLINE]Late in the sixteenth or at the beginning of the seventeenth century, Catholics in England circulated among themselves a "Life of St. Charles".</Text>
+		--</Row>
+		--<Row Tag="LOC_GREAT_PERSON_JFD_CHARLES_BORROMEO_HELP" Language="en_US">
+			--<Text>400 [ICON_FAITH] Faith. All Apostles begin with the Debater promotion.</Text>
+		--</Row>
+		--<!--Mulla Sadra-->
+		--<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_JFD_MULLA_SADRA_NAME" Language="en_US">
+			--<Text>Mulla Sadra</Text>
+		--</Row>
+		--<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_JFD_MULLA_SADRA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			--<Text>Sadr ad-Din Muhammad Shirazi, also called Mulla Sadr?, was an Iranian Shia Islamic philosopher, theologian and ‘?lim who led the Iranian cultural renaissance in the 17th century. According to Oliver Leaman, Mulla Sadra is arguably the single most important and influential philosopher in the Muslim world in the last four hundred years.[NEWLINE][NEWLINE]Though not its founder, he is considered the master of the Illuminationist (or, Ishraghi or Ishraqi) school of Philosophy, a seminal figure who synthesized the many tracts of the Islamic Golden Age philosophies into what he called the Transcendent Theosophy or al-hikmah al-muta’liyah.[NEWLINE][NEWLINE]Mulla Sadra brought "a new philosophical insight in dealing with the nature of reality" and created "a major transition from essentialism to existentialism" in Islamic philosophy, although his existentialism should not be too readily compared to Western existentialism. His was a question of existentialist cosmology as it pertained to God, and thus differs considerably from the individual, moral, and/or social, questions at the heart of Russian, French, German, or American Existentialism.[NEWLINE][NEWLINE]Mulla Sadra's philosophy ambitiously synthesized Avicennism, Shahab al-Din Suhrawardi's Illuminationist philosophy, Ibn Arabi's Sufi metaphysics, and the theology of the Ash'ari school and Twelvers.</Text>
+		--</Row>
+		--<Row Tag="LOC_GREAT_PERSON_JFD_MULLA_SADRA_HELP" Language="en_US">
+			--<Text>Gain 50 [ICON_SCIENCE] Science. Triggers the [ICON_CivicBoosted] Inspiration moment for 1 random civic from the Renaissance era.</Text>
+		--</Row>
+		--<!--Yosef Karo-->
+		--<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_JFD_YOSEF_CARO_NAME" Language="en_US">
+			--<Text>Yosef Karo</Text>
+		--</Row>
+		--<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_JFD_YOSEF_CARO_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			--<Text>Yosef Karo was author of the last great codification of Jewish law, the Shulchan Aruch, which is still authoritative for all Jews pertaining to their respective communities. To this end he is often referred to as HaMechaber ("The Author"??) and as Maran ("Our Master"). Karo's literary works are considered among the masterpieces of rabbinic literature.[NEWLINE][NEWLINE]Karo's literary works are considered among the masterpieces of rabbinic literature. The Maggid Meisharim (1646, Preacher of Righteousness), another major work, a strange and mystical diary, is a kind of diary in which Karo during a period of fifty years recorded the nocturnal visits of an angelic being, his heavenly mentor, the personified Mishna (the authoritative collection of Jewish Oral Law). His visitor spurred him to acts of righteousness and even asceticism, exhorted him to study the Kabbala, and reproved him for moral laxities. </Text>
+		--</Row>
+		--<Row Tag="LOC_GREAT_PERSON_JFD_YOSEF_CARO_HELP" Language="en_US">
+			--<Text>Temples gain 1 slot for a [ICON_GREATWORK_WRITING] Great Work of Writing.</Text>
+		--</Row>
+		--<!--INDUSTRIAL-->
+		--<!--Catherine Booth-->
+		--<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_JFD_CATHERINE_BOOTH_NAME" Language="en_US">
+			--<Text>Catherine Booth</Text>
+		--</Row>
+		--<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_JFD_CATHERINE_BOOTH_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			--<Text>Catherine Booth was wife of the founder of the Salvation Army (William Booth), and herself an eloquent preacher and social worker.[NEWLINE][NEWLINE]Her father was a carriage builder and sometime Methodist lay preacher, her mother a deeply religious woman of Puritan type. Catherine, in adolescence an invalid, was educated principally at home, and early acquired some competence in the theology of her day. The family moved to London in 1844, and she became an active member of the Wesleyan Methodist Church in Brixton. When this church expelled a group of “reformers,” she and her future husband joined them. They were married in 1855, and Catherine became her husband’s devoted helper.[NEWLINE][NEWLINE]Catherine Booth was a convinced believer in women’s right to preach the gospel, and her pamphlet Female Ministry (1859) is still cogent. She herself began to preach in her husband’s church at Gateshead in 1860. She became a notable orator and in 1880–84 conducted highly successful meetings in various halls in the West End of London. In 1885 she took part in a campaign that secured the passing of the Criminal Law Amendment Act, designed to protect young girls.[NEWLINE][NEWLINE]She did not believe that the sacraments are essential to salvation. Although the evolution of the sacramental attitude of the Salvation Army must not be wholly attributed to Catherine Booth, her beliefs were undoubtedly influential.</Text>
+		--</Row>
+		--<Row Tag="LOC_GREAT_PERSON_JFD_CATHERINE_BOOTH_HELP" Language="en_US">
+			--<Text>+1 [ICON_AMENITIES] Amenity and +1 [ICON_HOUSING] Housing.</Text>
+		--</Row>
+		--<!--Motoori Norinaga-->
+		--<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_JFD_NORINAGA_NAME" Language="en_US">
+			--<Text>Motoori Norinaga</Text>
+		--</Row>
+		--<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_JFD_NORINAGA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			--<Text>Motoori Norinaga was a Japanese scholar of Kokugaku active during the Edo period. He is probably the best known and most prominent of all scholars in this tradition.[NEWLINE][NEWLINE]Norinaga’s most important works include the Kojiki-den (Commentaries on the Kojiki), made over a period of around 35 years, and his annotations on the Tale of Genji. Using the methods of Kokugaku and Kaozheng, Norinaga claimed that the Kojiki was the oldest surviving Japanese text. He used the supposed antiquity of the Kojiki to develop an idea of indigenous Japanese religion, laws, and religion which were later used in the development of an idea of State Shinto.[NEWLINE][NEWLINE]Norinaga took the view that the heritage of ancient Japan was one of natural spontaneity in feelings and spirit, and that imported Confucianism ran counter to such natural feelings. He criticized Ogy? Sorai for his over-valuing of Chinese civilization and thought, although it has been pointed out that his philological methodology was heavily influenced by Sorai's. His ideas were influenced by the Chinese intellectual Wang Yangming (? Y?mei in Japanese), who had argued for innate knowing, that mankind had a naturally intuitive (as opposed to rational) ability to distinguish good and evil. </Text>
+		--</Row>
+		--<Row Tag="LOC_GREAT_PERSON_JFD_NORINAGA_HELP" Language="en_US">
+			--<Text>Gain 200 [ICON_CULTURE] Culture. This Holy Site district's [ICON_FAITH] Faith adjacency bonus provides [ICON_CULTURE] Culture as well.</Text>
+		--</Row>
+		--<!--Neolin-->
+		--<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_JFD_NEOLIN_NAME" Language="en_US">
+			--<Text>Neolin</Text>
+		--</Row>
+		--<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_JFD_NEOLIN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			--<Text>Neolin (meaning the enlightened in Algonquian) was a prophet of the Lenni Lenape (also known as Delaware) from the area of Muskingum County, Ohio. His dates of birth and death are unknown. Inspired by a religious vision in 1761, Neolin proclaimed that Native Americans needed to reject the goods and lifestyles of the European settlers and return to a more traditional lifestyle, specifically rejecting alcohol, materialism, and polygamy. Neolin's most famous follower was Pontiac.[NEWLINE][NEWLINE]Neolin's teachings, as adopted by Pontiac, affected the policy "of nearly twenty tribes from Lake Ontario to the Mississippi, including among them the Ojibwa, Ottawa, Potawatomi, Seneca, Huron, Miami, Shawnee, and Delaware." Pontiac was known to use "Neolin's message as a slogan…to attract warriors" for the military movement on Detroit" (Dowd 35). </Text>
+		--</Row>
+		--<Row Tag="LOC_GREAT_PERSON_JFD_NEOLIN_HELP" Language="en_US">
+			--<Text>Land combat units gain [ICON_FAITH] Faith and [ICON_GREATGENERAL] Great General Points from kills.</Text>
+		--</Row>
+		--<!--MODERN-->
+		--<!--Henry Steel Olcott-->
+		--<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_JFD_HENRY_STEEL_OLCOTT_NAME" Language="en_US">
+			--<Text>Henry Steel Olcott</Text>
+		--</Row>
+		--<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_JFD_HENRY_STEEL_OLCOTT_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			--<Text>Colonel Henry Steel Olcott  was an American military officer, journalist, lawyer and the co-founder and first President of the Theosophical Society.[NEWLINE][NEWLINE]Olcott was the first well-known American of European ancestry to make a formal conversion to Buddhism. His subsequent actions as president of the Theosophical Society helped create a renaissance in the study of Buddhism. Olcott is considered a Buddhist modernist for his efforts in interpreting Buddhism through a Westernized lens.[NEWLINE][NEWLINE]Olcott was a major revivalist of Buddhism in Sri Lanka and he is still honored in Sri Lanka for these efforts. Olcott has been called by Sri Lankans "one of the heroes in the struggle of our independence and a pioneer of the present religious, national and cultural revival". </Text>
+		--</Row>
+		--<Row Tag="LOC_GREAT_PERSON_JFD_HENRY_STEEL_OLCOTT_HELP" Language="en_US">
+			--<Text>Receive Follower Belief bonuses in a city from each Religion that has at least 1 follower.</Text>
+		--</Row>
+		--<!--Soyen Shaku-->
+		--<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_JFD_SOYEN_SHAKU_NAME" Language="en_US">
+			--<Text>Soyen Shaku</Text>
+		--</Row>
+		--<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_JFD_SOYEN_SHAKU_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			--<Text>Soyen Shaku was the first Zen Buddhist master to teach in the United States. He was a Roshi of the Rinzai school and was abbot of both Kench?-ji and Engaku-ji temples in Kamakura, Japan. Shaku was a disciple of Imakita Kosen. In 1893 Shaku was one of four priests and two laymen, representing Rinzai Zen, J?do Shinsh?, Nichirin, Tendai, and Esoteric schools, composing the Japanese delegation that participated in the World Parliament of Religions in Chicago.</Text>
+		--</Row>
+		--<Row Tag="LOC_GREAT_PERSON_JFD_SOYEN_SHAKU_HELP" Language="en_US">
+			--<Text>+500 [ICON_FAITH] Faith. All Apostles begin with the Orator promotion.</Text>
+		--</Row>
+		--<!--Xiong Shili-->
+		--<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_JFD_XIONG_SHILI_NAME" Language="en_US">
+			--<Text>Xiong Shili</Text>
+		--</Row>
+		--<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_JFD_XIONG_SHILI_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			--<Text>Xiong Shili was a modern Chinese philosopher whose major work A New Treatise on Consciousness-only is a Confucian critique of the Buddhist "consciousness-only" theory popularized in China by the Tang-dynasty pilgrim Xuanzang.[NEWLINE][NEWLINE]Xiong is widely regarded as the thinker who laid down the basis for the revival of Confucianism during the twentieth century, and the main voice in contemporary Chinese philosophy who called for a revival of the Confucian dao. He felt it could provide a guide for the country during its tumultuous period following the May Fourth Movement in 1919. He felt that national survival was predicated on a sense of community, which in turn could only come from trusting commitments from the people involved. He believed that the most urgent task for the educated elite in China was to raise the cultural awareness and sensitivity of the people that the clash between the West and China was not solely a clash of economic strength and military might, but also a conflict between basic human values. While he led a fairly secluded life throughout his career as a teacher and his association with the academic community did not begin until he was in his late thirties, his views have influenced scholars to this day.</Text>
+		--</Row>
+		--<Row Tag="LOC_GREAT_PERSON_JFD_XIONG_SHILI_HELP" Language="en_US">
+			--<Text>Triggers the [ICON_CIVICBOOSTED] Inspiration moment for the Cultural Heritage civic. +1 Cultural policy slot in any government.</Text>
+		--</Row>
+		--<!--ATOMIC-->
+		--<!--Abul Ala Maududi-->
+		--<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_JFD_MAUDUDI_NAME" Language="en_US">
+			--<Text>Abul Ala Maududi</Text>
+		--</Row>
+		--<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_JFD_MAUDUDI_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			--<Text>Syed Abul A'la Maududi Chishti, also known as Abul Ala Maududi, was a Pakistani Muslim philosopher, jurist, journalist and imam. His numerous works, which "covered a range of disciplines such as Qur’anic exegesis, hadith, law, philosophy and history", were written in Urdu, but then translated into English, Arabic, Hindi, Bengali, Tamil, Burmese and many other languages. He sought to revive Islam, and to propagate what he understood to be "true Islam". He believed that Islam was essential for politics, and that it was necessary to institute sharia and preserve Islamic culture from what he viewed as the evils of secularism, nationalism and socialism, which he understood to be the influence Western imperialism.[NEWLINE][NEWLINE]He was the founder of the Jamaat-e-Islami, the then largest Islamic organisation in Asia He and his party are thought to have been the pioneer in politicizing Islam and generating support for an Islamic state in Pakistan. They are thought to have helped inspire General Muhammad Zia-ul-Haq to introduce "Sharization" to Pakistan, and to have been greatly strengthened by him after tens of thousands of members and sympathizers were given jobs in the judiciary and civil service during his administration. He was the first recipient of the Saudi Arabian King Faisal International Award for his service to Islam in 1979. He has been the second person in history whose absentee funeral was observed in the Kaaba, succeeding King Ashama ibn-Abjar.</Text>
+		--</Row>
+		--<Row Tag="LOC_GREAT_PERSON_JFD_MAUDUDI_HELP" Language="en_US">
+			--<Text>+600 [ICON_FAITH] Faith. Patronage of Great People costs 15% less [ICON_FAITH] Faith.</Text>
+		--</Row>
+		--<!--Karl Barth-->
+		--<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_JFD_KARL_BARTH_NAME" Language="en_US">
+			--<Text>Karl Barth</Text>
+		--</Row>
+		--<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_JFD_KARL_BARTH_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			--<Text>Karl Barth was a Swiss Reformed theologian who is often regarded as the greatest Protestant theologian of the twentieth century. His influence expanded well beyond the academic realm to mainstream culture, leading him to be featured on the cover of Time on April 20, 1962.[NEWLINE][NEWLINE]Beginning with his experience as a pastor, Barth rejected his training in the predominant liberal theology typical of 19th-century European Protestantism. He also rejected more conservative forms of Christianity. Instead he embarked on a new theological path initially called dialectical theology due to its stress on the paradoxical nature of divine truth (e.g., God's relationship to humanity embodies both grace and judgment). Many critics have referred to Barth as the father of neo-orthodoxy – a term that Barth emphatically rejected. A more charitable description of his work might be "a theology of the Word". Barth's work had a profound impact on twentieth century theology and figures such as Dietrich Bonhoeffer – who supported the Confessing Church – Thomas F. Torrance, Reinhold Niebuhr, Jacques Ellul, Stanley Hauerwas, Hans Küng, Jürgen Moltmann, and novelists such as John Updike and Miklós Szentkuthy.[NEWLINE][NEWLINE]Barth's unease with the dominant theology which characterized Europe led him to become a leader in the Confessing Church in Germany, which actively opposed Adolf Hitler and the Nazi regime. In particular, Barth and other members of the movement vigorously attempted to prevent the Nazis from taking over the existing church and establishing a state church controlled by the regime. This culminated in Barth's authorship of the Barmen Declaration, which fiercely criticized Christians who supported the Nazis.[NEWLINE][NEWLINE]He was one of the most prolific and influential theologians of the twentieth century. Barth emphasized the sovereignty of God, particularly through his reinterpretation of the Calvinistic doctrine of election, the sinfulness of humanity, and the "infinite qualitative distinction between God and mankind". His most famous works are his The Epistle to the Romans, which marked a clear break from his earlier thinking, and his massive thirteen-volume work Church Dogmatics, one of the largest works of systematic theology ever written.</Text>
+		--</Row>
+		--<Row Tag="LOC_GREAT_PERSON_JFD_KARL_BARTH_HELP" Language="en_US">
+			--<Text>Barmen Declaration ([ICON_GREATWORK_WRITING] Writing; yields [ICON_FAITH] Faith and [ICON_CULTURE] Culture), Church Dogmatics ([ICON_GREATWORK_WRITING] Writing; yields [ICON_FAITH] Faith and [ICON_CULTURE] Culture)</Text>
+		--</Row>
+		--<Row Tag="LOC_GREATWORK_JFD_BARMEN_DECLARATION_NAME" Language="en_US">
+			--<Text>Barmen Declaration</Text>
+		--</Row>
+		--<Row Tag="LOC_GREATWORK_JFD_BARMEN_DECLARATION_QUOTE" Language="en_US">
+			--<Text>We reject the false doctrine, as though the Church in human arrogance could place the Word and work of the Lord in the service of any arbitrarily chosen desires, purposes, and plans.</Text>
+		--</Row>
+		--<Row Tag="LOC_GREATWORK_JFD_CHURCH_DOGMATICS_NAME" Language="en_US">
+			--<Text>Church Dogmatics</Text>
+		--</Row>
+		--<Row Tag="LOC_GREATWORK_JFD_CHURCH_DOGMATICS_QUOTE" Language="en_US">
+			--<Text>The righteousness of God in His election means, then, that as a righteous Judge God perceives and estimates as such the lost cause of the creature, and that in spite of its opposition He gives sentence in its favour, fashioning for it His own righteousness.</Text>
+		--</Row>
+		--<!--Mata Amritanandamayi-->
+		--<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_JFD_MATA_AMMA_NAME" Language="en_US">
+			--<Text>Mata Amritanandamayi</Text>
+		--</Row>
+		--<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_JFD_MATA_AMMA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			--<Text>Mata Amritanandamayi Devi, better known simply as Amma ("Mother"), is a Hindu spiritual leader and guru who is revered as a saint by her followers. Am?t?nandamay?'s form of giving darshana is hugging people. As to how this began, Am?t?nandamay? said, "People used to come and tell [me] their troubles. They would cry and I would wipe their tears. When they fell weeping into my lap, I used to hug them. Then the next person too wanted it... And so the habit picked up." Amritanandamayi has embraced more than 33 million people throughout the world for over 30 years. Amritanandamayi's darshana has been the centerpiece of her life, as she has received people nearly every day since the late 1970s. Given the size of the crowds coming to seek Amritanandamayi's blessings, there have been times when she has given darshana for more than 20 continuous hours.[NEWLINE][NEWLINE]Embracing the World, Amma's network of charity organizations, provides food housing, education, and medical services for the poor. This global network exists in 40 countries around the world, and has built and/or supported schools, orphanages, housing, and hospitals throughout India.</Text>
+		--</Row>
+		--<Row Tag="LOC_GREAT_PERSON_JFD_MATA_AMMA_HELP" Language="en_US">
+			--<Text>+1 [ICON_HOUSING] Housing and +3 [ICON_FOOD] Food for the Temple in this district.</Text>
+		--</Row>
+		--<!--INFORMATION-->
+		--<!--Charles Taylor-->
+		--<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_JFD_CHARLES_TAYLOR_NAME" Language="en_US">
+			--<Text>Charles Taylor</Text>
+		--</Row>
+		--<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_JFD_CHARLES_TAYLOR_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			--<Text>Charles Margrave Taylor is a Canadian philosopher from Montreal, Quebec, and professor emeritus at McGill University best known for his contributions to political philosophy, the philosophy of social science, the history of philosophy, and intellectual history. This work has earned him the Kyoto Prize, the Templeton Prize, the Berggruen Prize for Philosophy, and the John W. Kluge Prize.[NEWLINE][NEWLINE]In 2007, Taylor served with Gérard Bouchard on the Bouchard–Taylor Commission on reasonable accommodation with regard to cultural differences in the province of Quebec. He has also made contributions to moral philosophy, epistemology, hermeneutics, aesthetics, the philosophy of mind, the philosophy of language, and the philosophy of action.[NEWLINE][NEWLINE]Taylor's most significant contribution in this field to date is his book A Secular Age which argues against the secularization thesis of Max Weber, Steve Bruce, and others. In rough form, the secularization thesis holds that as modernity (a bundle of phenomena including science, technology, and rational forms of authority) progresses, religion gradually diminishes in influence. Taylor begins from the fact that the modern world has not seen the disappearance of religion but rather its diversification and in many places its growth. He then develops a complex alternative notion of what secularization actually means given that the secularization thesis has not been borne out. In the process, Taylor also greatly deepens his account of moral, political, and spiritual modernity that he had begun in Sources of the Self.</Text>
+		--</Row>
+		--<Row Tag="LOC_GREAT_PERSON_JFD_CHARLES_TAYLOR_HELP" Language="en_US">
+			--<Text>[ICON_TOURISM] Tourism output from [ICON_GREATWORK_RELIC] Relics and Holy Cities is not diminished by other civilizations who have researched The Enlightenment civic.</Text>
+		--</Row>
+		--<!--Jorge Mario Bergoglio-->
+		--<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_JFD_JORGE_BERGOGLIO_NAME" Language="en_US">
+			--<Text>Jorge Mario Bergoglio</Text>
+		--</Row>
+		--<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_JFD_JORGE_BERGOGLIO_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			--<Text>Pope Francis is the 266th and current Pope and sovereign of the Vatican City State. Francis is the first Jesuit pope, the first from the Americas, the first from the Southern Hemisphere, and the first pope from outside Europe since the Syrian Gregory III, who reigned in the 8th century.[NEWLINE][NEWLINE]Born in Buenos Aires, Argentina, Bergoglio was ordained a Catholic priest in 1969, and from 1973 to 1979 was Argentina's provincial superior of the Society of Jesus (Jesuits). He became the Archbishop of Buenos Aires in 1998 and was created a cardinal in 2001 by Pope John Paul II. He led the Argentine Church during the December 2001 riots in Argentina. The administrations of Néstor Kirchner and Cristina Fernández de Kirchner considered him a political rival. Following the resignation of Pope Benedict XVI on 28 February 2013, a papal conclave elected Bergoglio as his successor on 13 March. He chose Francis as his papal name in honor of Saint Francis of Assisi.[NEWLINE][NEWLINE]Throughout his public life, Pope Francis has been noted for his humility, emphasis on God's mercy, international visibility as Pope, concern for the poor and commitment to interfaith dialogue. He is credited with having a less formal approach to the papacy than his predecessors, for instance choosing to reside in the Domus Sanctae Marthae guesthouse rather than in the papal apartments of the Apostolic Palace used by previous popes. He maintains that the Church should be more open and welcoming. He does not support unbridled capitalism, Marxism, or Marxist versions of liberation theology. Francis maintains the traditional views of the Church regarding abortion, marriage, ordination of women, and clerical celibacy. He opposes consumerism and overdevelopment, and supports taking action on climate change, a focus of his papacy with the promulgation of Laudato si'. In international diplomacy, he helped to restore full diplomatic relations between the United States and Cuba. Since 2016, Francis has faced increasingly open criticism, particularly from theological conservatives, on the question of admitting civilly divorced and remarried Catholics to Communion with the publication of Amoris Laetitia, and on the question of alleged systematic cover up of clergy sexual abuse.</Text>
+		--</Row>
+		--<Row Tag="LOC_GREAT_PERSON_JFD_JORGE_BERGOGLIO_HELP" Language="en_US">
+			--<Text>+2 [ICON_ENVOY] Envoys. +1 [ICON_FAITH] Faith from each of your [ICON_ENVOY] Envoys at City-States.</Text>
+		--</Row>
+		--<!--Tenzin Gyatso-->
+		--<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_JFD_TENZIN_GYATO_NAME" Language="en_US">
+			--<Text>Tenzin Gyatso</Text>
+		--</Row>
+		--<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_JFD_TENZIN_GYATO_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			--<Text>The 14th Dalai Lama is the current Dalai Lama. Dalai Lamas are important monks of the Gelug school, the newest school of Tibetan Buddhism which was formally headed by the Ganden Tripas. From the time of the 5th Dalai Lama to 1959, the central government of Tibet, the Ganden Phodrang, invested the position of Dalai Lama with temporal duties.[NEWLINE][NEWLINE]The 14th Dalai Lama was born in Taktser, Amdo, Tibet, and was selected as the tulku of the 13th Dalai Lama in 1937 and formally recognized as the 14th Dalai Lama at a public declaration near the town of Bumchen in 1939. His enthronement ceremony as the Dalai Lama was held in Lhasa on 22 February 1940, and he eventually assumed full temporal (political) duties on 17 November 1950, at the age of 15, after the People's Republic of China's incorporation of Tibet. The Gelug school's government administered an area roughly corresponding to the Tibet Autonomous Region just as the nascent PRC wished to assert control over it.[NEWLINE][NEWLINE]During the 1959 Tibetan uprising, the Dalai Lama fled to India, where he currently lives as a refugee. The 14th Dalai Lama received the Nobel Peace Prize in 1989. Time Magazine named him one of the "Children of Mahatma Gandhi" and his spiritual heir to nonviolence. He has traveled the world and has spoken about the welfare of Tibetans, environment, economics, women's rights, non-violence, interfaith dialogue, physics, astronomy, Buddhism and science, cognitive neuroscience, reproductive health, and sexuality, along with various topics of Mahayana and Vajrayana Buddhist teachings.</Text>
+		--</Row>
+		--<Row Tag="LOC_GREAT_PERSON_JFD_TENZIN_GYATO_HELP" Language="en_US">
+			--<Text>+800 [ICON_FAITH] Faith. All Apostles begin with the Translator promotion.</Text>
+		--</Row>
+		--<!--===================================================-->
+		--<!--PROJECTS-->
+		--<!--===================================================-->
+		--<Row Tag="LOC_PROJECT_ENHANCE_DISTRICT_HOLY_SITE_DESCRIPTION_JFD_THEOLOGIANS" Language="en_US">
+			--<Text>District-based project which provides [ICON_Faith] Faith and +100% Religious Pressure every turn. Awards [ICON_GreatProphet] Great Prophet and Great Theologian points once finished.</Text>
+		--</Row>
+	--</LocalizedText>
+--</GameData>
+		--
