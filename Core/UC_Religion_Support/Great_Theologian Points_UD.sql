@@ -35,7 +35,7 @@ UPDATE Modifiers
 
 -- Change the policy card to affect tier 3 (worship) and tier 4 buildings
 UPDATE Modifiers 
-	SET SubjectRequirementSetId = 'BUILDING_IS_HOLY_SITE_TIER3_JNR'
+	SET SubjectRequirementSetId = 'BUILDING_IS_TIER3_HOLY_SITE'
 	WHERE ModifierId = 'MINISTERIAL_THEOLOGIAN_TEMPLE';
 
 UPDATE Modifiers 
